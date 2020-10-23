@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github</title>
+    <link rel="stylesheet" href="home_style.css">
+    <title>
+        Digital Concept Map
+    </title>
+
+    <script type="text/javascript" src="main.js">
+
+    </script>
 </head>
 <body>
-    <h1>
-        My First Github page
-    </h1>
-    <a href="Home.html">Take Me Home</a>
+    <div class="container-home">
+        <div class="container-icon">
+            <img src="Sources/home.svg" onClick="set_src('about:home')">
+        </div>
+        <h1 style="text-align:center;background-color: rgb(170, 255, 58);font-family: Arial, Helvetica, sans-serif;">
+            DIGITAL CONCEPT MAP
+        </h1>
+    </div>
+    <div class="container-frame">
+        <iframe src="about:blank" id='iframe'></iframe>
+    </div>
+    <div class="container-navigation">
+        <img src="Sources/back-arrow.png" style="left: 0;" onclick="backward()">
+        <img src="Sources/front-arrow.png" style="right: 0;" onclick="forward()">
+        <div class="container-buttons">
+            <button onClick="set_src('Resources/EEE/CURRENT ELECTRICITY AND ELECTRIC ENERGY.cmap.html')">     Electricity
+                and Electric Energy     </button>
+            <button onClick="set_src('Resources/LOM/LAWS OF MOTION- CONTENT.html')">Laws of Motion</button>
+            <button onClick="set_src('Resources/LIGHT/LIGHT - CONTENT.cmap.html')">Light</button>
+            <button onClick="set_src('Resources/MEASUREMENT/MEASUREMENT-CONTENT.html')">Measurement</button>
+            <button onClick="set_src('Resources/SOUND/SOUND - CONTENT.html')">Sound</button>
+        </div>
+    </div>
 </body>
 </html>
