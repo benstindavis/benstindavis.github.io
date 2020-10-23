@@ -1,0 +1,55 @@
+div.container-home {
+    position: relative;
+    width: 100%;
+}
+
+div.container-home h1 {
+    border: 1px solid black;
+}
+
+div.container-icon img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right : 48%;
+ }
+
+div.container-frame {
+    position: relative;
+    width: 100%;
+    padding-bottom: 43%;
+    border: 1px solid black;
+}
+
+div.container-frame iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+div.container-navigation {
+    position: relative;
+    width: 100%;
+    padding-bottom: 5%;
+    border: 1px solid black;
+}
+
+div.container-navigation img {
+    position: absolute;
+    width: 5%;
+    border: 1px solid black;    
+}
+
+
+div.container-buttons {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 100%;
+
+}
