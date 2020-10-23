@@ -4,10 +4,10 @@ function set_src(r_name) {
 }
 
 function forward() {
-    window.frames[0].contentWindow.history.forward();
+    window.history.forward();
 }
 
 
 function backward() {
-    window.frames[0].contentWindow.history.back();
+    window.history.back();
 }  
