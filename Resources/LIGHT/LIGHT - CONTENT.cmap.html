@@ -1,0 +1,572 @@
+<HTML>
+<HEAD>
+  <TITLE>LIGHT - CONTENT.cmap.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Concept Map, cmap, CmapTools, IHMC, LIGHT - CONTENT.cmap,  rear - view mirror,  centre is,  at C,  between P and F,  angle of incidence (i),  a point on the Principal axis,  enlarged virtual erect behind mirror,  at F,  object,  rules,  two types,  reflection,  Reflected,  Focal Length (f),  beyond C,  Principal Axis,  objects,  plane mirror,  between C and F,  to the right">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: LIGHT - CONTENT.cmap, distance measured to the left, spherical mirrors are the mirrors whose surface, principal focus (F) goes parallel to principal axis, LIGHT obey Laws of reflection, Principal Axis after reflection, LIGHT is a form of energy, polished surface (mirror) can be plane mirror, centre is called centre of curvature (C), the mirrors whose surface is a part of a sphere, distance measured from pole, incident ray, normal at the point of incidence, reflected ray lie in the same plane, centre is is called pole (P), image formed object at infinity, cartesian sign convention all distance, LIGHT falling on objects, principal axis passes through principal focus (F), the eye helps to see objects, concave mirror converge at a point on the Principal axis, between C and F image diminished, real, inverted beyond C, immaginary line passing through both centre of curvature (C)">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: LIGHT - CONTENT.cmap, distance measured to the left, spherical mirrors are the mirrors whose surface, principal focus (F) goes parallel to principal axis, LIGHT obey Laws of reflection, Principal Axis after reflection, LIGHT is a form of energy, polished surface (mirror) can be plane mirror, centre is called centre of curvature (C), the mirrors whose surface is a part of a sphere, distance measured from pole, incident ray, normal at the point of incidence, reflected ray lie in the same plane, centre is is called pole (P), image formed object at infinity, cartesian sign convention all distance, LIGHT falling on objects, principal axis passes through principal focus (F), the eye helps to see objects, concave mirror converge at a point on the Principal axis, between C and F image diminished, real, inverted beyond C, immaginary line passing through both centre of curvature (C)
+
+</noscript>
+
+<map name="LIGHT - CONTENT.cmap.html">
+  <area shape="rect"
+        href="1V4K53Q70IFR1WP3I1P22Iimage"
+        onClick="popUpEvt(event,'1V4K53Q70IFR1WP3I1P22Iimage'); return false;"
+        coords="55,864,73,882">
+  <area shape="rect"
+        href="1V4K4P6YTI10RL4MWI1LLKIimage"
+        onClick="popUpEvt(event,'1V4K4P6YTI10RL4MWI1LLKIimage'); return false;"
+        coords="1038,1038,1056,1056">
+  <area shape="rect"
+        href="1V4K4RPHGI1YYD404I1M82Iimage"
+        onClick="popUpEvt(event,'1V4K4RPHGI1YYD404I1M82Iimage'); return false;"
+        coords="923,1126,941,1144">
+  <area shape="rect"
+        href="1V4JKCRC2I1F88MGDI2SGIimage"
+        onClick="popUpEvt(event,'1V4JKCRC2I1F88MGDI2SGIimage'); return false;"
+        coords="945,126,963,144">
+  <area shape="rect"
+        href="1V4K4QJK4I24L1WXFI1LN8Iimage"
+        onClick="popUpEvt(event,'1V4K4QJK4I24L1WXFI1LN8Iimage'); return false;"
+        coords="1021,1104,1039,1122">
+  <area shape="rect"
+        href="1V4K4NG2NIXHJN83I1KZLIimage"
+        onClick="popUpEvt(event,'1V4K4NG2NIXHJN83I1KZLIimage'); return false;"
+        coords="821,1096,839,1114">
+  <area shape="rect"
+        href="1V4K4PQJMI1YYVMTCI1LM8Iimage"
+        onClick="popUpEvt(event,'1V4K4PQJMI1YYVMTCI1LM8Iimage'); return false;"
+        coords="1024,985,1042,1003">
+  <area shape="rect"
+        href="1V4KM4T9HIX7H0TRI2TGDItextIhtml"
+        onClick="popUpEvt(event,'1V4KM4T9HIX7H0TRI2TGDItextIhtml'); return false;"
+        coords="1239,287,1257,305">
+  <area shape="rect"
+        href="1V4JSF6FZIZ3P0MRIF6GIimage"
+        onClick="popUpEvt(event,'1V4JSF6FZIZ3P0MRIF6GIimage'); return false;"
+        coords="404,196,422,214">
+  <area shape="rect"
+        href="1V4JXY2BBIJNM9MFIM12Iimage"
+        onClick="popUpEvt(event,'1V4JXY2BBIJNM9MFIM12Iimage'); return false;"
+        coords="341,26,359,44">
+  <area shape="rect"
+        href="1V4JQ2S97I28715NRICC1Iimage"
+        onClick="popUpEvt(event,'1V4JQ2S97I28715NRICC1Iimage'); return false;"
+        coords="81,203,99,221">
+  <area shape="rect"
+        href="1V4JLR1X3I1ZV78STI43WIimage"
+        onClick="popUpEvt(event,'1V4JLR1X3I1ZV78STI43WIimage'); return false;"
+        coords="671,420,689,438">
+  <area shape="rect"
+        href="1V4K4KM35IS5JK3I1KBKIimage"
+        onClick="popUpEvt(event,'1V4K4KM35IS5JK3I1KBKIimage'); return false;"
+        coords="924,960,942,978">
+  <area shape="rect"
+        href="1V4JLK6LJI1X30DWI3SGIimage"
+        onClick="popUpEvt(event,'1V4JLK6LJI1X30DWI3SGIimage'); return false;"
+        coords="1131,80,1149,98">
+  <area shape="rect"
+        href="1V4JNPCB3I22SJFC6I73CIimage"
+        onClick="popUpEvt(event,'1V4JNPCB3I22SJFC6I73CIimage'); return false;"
+        coords="572,865,590,883">
+  <area shape="rect"
+        href="1V4K1DQP3I27BQVX3I11S9Iimage"
+        onClick="popUpEvt(event,'1V4K1DQP3I27BQVX3I11S9Iimage'); return false;"
+        coords="922,704,940,722">
+  <area shape="rect"
+        href="1V4KKRTDHI28S75NFI2B4ZIimage"
+        onClick="popUpEvt(event,'1V4KKRTDHI28S75NFI2B4ZIimage'); return false;"
+        coords="776,1267,794,1285">
+  <area shape="rect"
+        href="1V4JNRF8TI1VHW37XI7DLIimage"
+        onClick="popUpEvt(event,'1V4JNRF8TI1VHW37XI7DLIimage'); return false;"
+        coords="249,867,267,885">
+  <area shape="rect"
+        href="1V4JL7KYXI1YZ5VTHI32RIimage"
+        onClick="popUpEvt(event,'1V4JL7KYXI1YZ5VTHI32RIimage'); return false;"
+        coords="946,40,964,58">
+  <area shape="rect"
+        href="1V4JPS6RGIWLRFQ8IBCRIimage"
+        onClick="popUpEvt(event,'1V4JPS6RGIWLRFQ8IBCRIimage'); return false;"
+        coords="171,342,189,360">
+  <area shape="rect"
+        href="1V4JQ0MJ9ICC5CL7IC0DIimage"
+        onClick="popUpEvt(event,'1V4JQ0MJ9ICC5CL7IC0DIimage'); return false;"
+        coords="276,202,294,220">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#LIGHT - CONTENT.cmap.html"
+             SRC="LIGHT - CONTENT.cmap.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1V4K53Q70IFR1WP3I1P22Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Rear Mirror.jpg "TITLE="">
+      Rear Mirror
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K4P6YTI10RL4MWI1LLKIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Object at C.png "TITLE="">
+      Object at C
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K4RPHGI1YYD404I1M82Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Between P and F.png "TITLE="">
+      Between P and F
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JKCRC2I1F88MGDI2SGIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Angle of Incidence.gif "TITLE="">
+      Angle of Incidence
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K4QJK4I24L1WXFI1LN8Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Object at F.png "TITLE="">
+      Object at F
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K4NG2NIXHJN83I1KZLIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Obejct Beyond C.png "TITLE="">
+      Obejct Beyond C
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K4PQJMI1YYVMTCI1LM8Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Object Between F and C.png "TITLE="">
+      Object Between F and C
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4KM4T9HIX7H0TRI2TGDItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.youtube.com/watch?v=q5pzVJ197dc "TITLE="">
+      Rectilinear Propagation of Light Experiment
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JSF6FZIZ3P0MRIF6GIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="POLE.gif "TITLE="">
+      POLE
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JXY2BBIJNM9MFIM12Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="principalaxis.gif "TITLE="">
+      principalaxis
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JQ2S97I28715NRICC1Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="radiusofcurv.gif "TITLE="">
+      Radius of Curvature
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JLR1X3I1ZV78STI43WIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Mirror-Polished-Surface.jpg "TITLE="">
+      Polished Surface
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K4KM35IS5JK3I1KBKIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Object at Infinity.png "TITLE="">
+      Object at Infinity
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JLK6LJI1X30DWI3SGIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Same Plane.gif "TITLE="">
+      Same Plane
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JNPCB3I22SJFC6I73CIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Concave Mirror.png "TITLE="">
+      Concave Mirror
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4K1DQP3I27BQVX3I11S9Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="principalaxis.gif "TITLE="">
+      principalaxis
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4KKRTDHI28S75NFI2B4ZIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Sign Convention.png "TITLE="">
+      Sign Convention
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JNRF8TI1VHW37XI7DLIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Convex Mirror.png "TITLE="">
+      Convex Mirror
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JL7KYXI1YZ5VTHI32RIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Angle of Reflection.gif "TITLE="">
+      Angle of Reflection
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JPS6RGIWLRFQ8IBCRIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="part of sphere.gif "TITLE="">
+      part of sphere
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1V4JQ0MJ9ICC5CL7IC0DIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="centerofcurv.gif "TITLE="">
+      centerofcurv
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
